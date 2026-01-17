@@ -1,0 +1,57 @@
+
+["Quest Generation"]
+	#Minimum width/length for building quests (in blocks)
+	#Range: 3 ~ 20
+	minBuildWidth = 5
+	#Maximum width/length for building quests (in blocks)
+	#Range: 5 ~ 50
+	maxBuildWidth = 50
+	#Minimum height for building quests (in blocks)
+	#Range: 3 ~ 20
+	minBuildHeight = 5
+	#Maximum height for building quests (in blocks)
+	#Range: 5 ~ 30
+	maxBuildHeight = 30
+	#Minimum number of blocks required for quests
+	#Range: 10 ~ 100
+	minRequiredBlocks = 10
+	#Maximum number of blocks required for quests
+	#Range: 20 ~ 200
+	maxRequiredBlocks = 50
+
+["Quest Rewards"]
+	#Minimum emerald reward for completing quests
+	#Range: 1 ~ 64
+	minEmeraldReward = 1
+	#Maximum emerald reward for completing quests
+	#Range: 10 ~ 128
+	maxEmeraldReward = 12
+
+["Quest Cooldown"]
+	#Time in minutes before a villager can offer another quest
+	#Range: 5 ~ 300
+	questCooldownMinutes = 5
+
+["Quest Types"]
+	#Chance (0.0 to 1.0) for a quest to be a delivery quest instead of building
+	#Range: 0.0 ~ 1.0
+	deliveryQuestChance = 0.2
+	#Enable building quests
+	enableBuildingQuests = true
+	#Enable delivery quests
+	enableDeliveryQuests = true
+
+["Building Requirements"]
+	#Buffer zone (in blocks) between quest buildings to prevent overlap
+	#Range: 0 ~ 10
+	buildingBufferZone = 3
+	#Require buildings to be fully enclosed (floor, walls, ceiling)
+	requireFullEnclosure = true
+
+["Wandering Villagers"]
+	#Enable wandering quest villagers to spawn
+	enableWanderingVillagers = true
+	#Chance (1 in X checks) for a wandering villager to spawn per player
+	#Range: 10 ~ 1000
+	wanderingVillagerSpawnChance = 100
+
