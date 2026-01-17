@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="villagerquest"
+version="1.0.0"
+displayName="Villager Quest Mod"
+description='''
+Adds a quest system where villagers can request you to build structures for them.
+Complete quests to earn emerald rewards!
+'''
+authors="klempo"
+
+[[dependencies.villagerquest]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.villagerquest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"

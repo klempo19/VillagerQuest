@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "villagerquest:block/quest_marker"
+    }
+  }
+}
